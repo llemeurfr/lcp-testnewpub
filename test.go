@@ -49,7 +49,7 @@ func main() {
 	// get parameters
 	var serverURL = flag.String("url", "", "LCP License Server URL")
 	var tick = flag.Int("tick", 100, "Tick time in ms, 100 ms default")
-	var testtime = flag.Int("testtime", 4100, "Test time in ms, 4 sc default")
+	var testtime = flag.Int("testtime", 4000, "Test time in ms, 4 sc default")
 
 	flag.Parse()
 
