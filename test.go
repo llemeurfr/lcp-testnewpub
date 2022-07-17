@@ -1,4 +1,4 @@
-// Test the insertion of records in the License Server.
+// Test the insertion of multiple records in an LCP License Server.
 //
 // Source issue from Internet Archive:
 // I ran  LCP encrypting tool and it errored while notifying the LCP server.
@@ -47,7 +47,7 @@ var Counter int
 
 func main() {
 	// get parameters
-	var serverURL = flag.String("url", "", "Server URL")
+	var serverURL = flag.String("url", "", "LCP License Server URL")
 	var tick = flag.Int("tick", 100, "Tick time in ms, 100 ms default")
 	var testtime = flag.Int("testtime", 4100, "Test time in ms, 4 sc default")
 
