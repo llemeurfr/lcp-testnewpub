@@ -8,7 +8,7 @@ with the following parameters:
 
 - url: LCP License Server URL, e.g. "https://provider.org/license-server:8089"
 - tick: Interval between two calls to the LCP License Server in ms, 100 ms by default.
-- testtime: Total testing time, 4 sc by default.
+- testtime: Total testing time in ms, 4000 ms by default.
 
 Messages: 
 
